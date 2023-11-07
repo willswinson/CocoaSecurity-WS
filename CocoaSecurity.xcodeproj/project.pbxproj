@@ -18,8 +18,6 @@
 		21540A04183DD7F000E4C15B /* CocoaSecurityEncoder_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21540A00183DD7F000E4C15B /* CocoaSecurityEncoder_Tests.m */; };
 		21540A05183DD7F000E4C15B /* CocoaSecurityResult_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 21540A01183DD7F000E4C15B /* CocoaSecurityResult_Test.m */; };
 		21540A06183DD81A00E4C15B /* CocoaSecurity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2113924116EAD6AF00AFDF87 /* CocoaSecurity.m */; };
-		8AB6ABEE2AFACEC100A4C213 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6ABED2AFACEC100A4C213 /* Base64.m */; };
-		8AB6ABEF2AFACEC100A4C213 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6ABED2AFACEC100A4C213 /* Base64.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,8 +59,6 @@
 		21540A00183DD7F000E4C15B /* CocoaSecurityEncoder_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaSecurityEncoder_Tests.m; sourceTree = "<group>"; };
 		21540A01183DD7F000E4C15B /* CocoaSecurityResult_Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaSecurityResult_Test.m; sourceTree = "<group>"; };
 		21BB8A2E17FEA0EC0032C38C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		8AB6ABEC2AFACEC100A4C213 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
-		8AB6ABED2AFACEC100A4C213 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,8 +117,6 @@
 			children = (
 				2113923F16EAD6AF00AFDF87 /* CocoaSecurity.h */,
 				2113924116EAD6AF00AFDF87 /* CocoaSecurity.m */,
-				8AB6ABEC2AFACEC100A4C213 /* Base64.h */,
-				8AB6ABED2AFACEC100A4C213 /* Base64.m */,
 			);
 			path = CocoaSecurity;
 			sourceTree = "<group>";
@@ -235,7 +229,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AB6ABEE2AFACEC100A4C213 /* Base64.m in Sources */,
 				2113924216EAD6AF00AFDF87 /* CocoaSecurity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,7 +241,6 @@
 				21540A05183DD7F000E4C15B /* CocoaSecurityResult_Test.m in Sources */,
 				21540A03183DD7F000E4C15B /* CocoaSecurityDecoder_Tests.m in Sources */,
 				21540A02183DD7F000E4C15B /* CocoaSecurity_Tests.m in Sources */,
-				8AB6ABEF2AFACEC100A4C213 /* Base64.m in Sources */,
 				21540A04183DD7F000E4C15B /* CocoaSecurityEncoder_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

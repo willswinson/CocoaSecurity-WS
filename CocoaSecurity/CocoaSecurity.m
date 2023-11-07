@@ -9,7 +9,7 @@
 #import "CocoaSecurity.h"
 #import <CommonCrypto/CommonHMAC.h>
 #import <CommonCrypto/CommonCryptor.h>
-#import "Base64.h"
+//#import "Base64.h"
 
 #pragma mark - CocoaSecurity
 @implementation CocoaSecurity
